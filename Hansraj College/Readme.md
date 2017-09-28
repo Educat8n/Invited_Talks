@@ -2,9 +2,9 @@
 Workshop at Hansraj College
 The videos in Presentation can be seen at:
 
-+ Prof Hiroshi IshiGuro [https://www.youtube.com/watch?v=uD1CdjlrTBM]
-+ Sophia Awakens [https://www.youtube.com/watch?v=LguXfHKsa0c]
-+ Match of the Century AlphaGo vs Lee Sedol [https://www.youtube.com/watch?v=I2WFvGl4y8c]
++ <a href="https://www.youtube.com/watch?v=uD1CdjlrTBM"> Prof Hiroshi Ishiguro</a>
++ <a href="https://www.youtube.com/watch?v=LguXfHKsa0c">Sophia Awakens</a>
++ <a href="https://www.youtube.com/watch?v=I2WFvGl4y8c">Match of the Century AlphaGo vs Lee Sedol</a>
 
 Codes Covered in Workshop:
 
