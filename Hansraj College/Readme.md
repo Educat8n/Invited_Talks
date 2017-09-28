@@ -9,5 +9,5 @@ The videos in Presentation can be seen at:
 Codes Covered in Workshop:
 
 + McCullotch Pitts Model   <a href="http://tpcg.io/U0cwJD" target="_blank">Live Demo</a>  
-+ Simple Perceptron using Perceptron Learning Rule   <a href="http://tpcg.io/DlHZ6P" target="_blank">Live Demo</a> 
++ Simple Perceptron using Perceptron Learning Rule    <a href="http://tpcg.io/n5i3Ok" target="_blank">Live Demo</a> 
 + Simple Perceptron Using Gradient Descent
