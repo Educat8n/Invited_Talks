@@ -1,3 +1,4 @@
+//Program for Simple Perceptron
 // Developed by Dr Amita Kapoor 
 // For Workshop on " Biologically inspired learning: Neural Networks and Artificial Intelligence"
 // Venue Hansraj College, University of Delhi
@@ -44,21 +45,30 @@ int main()
             }
         }
     }
-    cout<<"\nLearning Complete in "<<e<<" Epochs\n\tFinal weights are\n\t";
-    for(int j=0;j<N+1;j++)
-        cout<<" "<<W[j];
     
-    // Retreival Phase
-   cout<<"\nTruth Table Learned\n";
-   for(int i = 0; i<M; i++)
-   {
-      for(int j=0;j<N+1;j++) 
-        {temp[j] = I[i][j];
-        if(j==N)break;
-        cout<<temp[j]<<"  ";}
-      int out = neuron(temp,W); 
-      cout<<out<<"\n";
-   }
+    if(e < epochs){
+        cout<<"\nLearning Complete in "<<e<<" Epochs\n\tFinal weights are\n\t";
+         for(int j=0;j<N+1;j++)
+                cout<<" "<<W[j];
+    
+        // Retreival Phase
+        cout<<"\nTruth Table Learned\n";
+        for(int i = 0; i<M; i++)
+            {
+                for(int j=0;j<N+1;j++) 
+                     {temp[j] = I[i][j];
+                     if(j==N)break;
+                     cout<<temp[j]<<"  ";}
+                int out = neuron(temp,W); 
+                cout<<out<<"\n";
+            }
+    }
+    else
+    cout<<"\nCould not learn the logic in specified epochs"
+         <<"\n Try Increasing Epochs "
+         <<"\n Try modifying learning rate eta"
+         <<"\n Check if the problem is linearly separable or not\n";
+         
    
 }
 
