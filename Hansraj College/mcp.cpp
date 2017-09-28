@@ -30,6 +30,7 @@ int main()
    {
       for(int j=0;j<N+1;j++) 
         {temp[j] = I[i][j];
+        if(j==N)break;
         cout<<temp[j]<<"  ";}
       int out = init(W, choice, temp); 
       cout<<out<<"\n";
@@ -39,6 +40,7 @@ int main()
    
 }
 int init(float *wts, int ch, int t[]){
+    int out, arr[3];
     switch(ch){
     case 1: for(int i=0;i<N;i++)
                 wts[i]=1;  
@@ -57,15 +59,17 @@ int init(float *wts, int ch, int t[]){
                 wts[i]=-1;  
             wts[N] = -N + 0.5;
             break;  
-    case 5: int andNot = init(wts, 4, t);
-            int or_ = init(wts, 2, t);
-            int arr[3] = {andNot, or_, -1};
-            int out = init(wts, 1,arr);
+    case 5: arr[0] = init(wts, 4, t);
+            arr[1] = init(wts, 2, t);
+            arr[2] = -1;
+            out = init(wts, 1,arr);
             return out;
+    default: cout<<"Use Stdin to enter your option\n";
+            return 0;
     
     }
     
-    int out = neuron(t,wts);
+    out = neuron(t,wts);
     return out;
     
 }
@@ -80,4 +84,3 @@ int neuron(int A [N+1],float B[N+1])
     out = (sum>=0)?1:0;
     return out;
 }
-
