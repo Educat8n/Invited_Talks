@@ -17,3 +17,6 @@ Prerequisites:
     Matplotlib
     Pandas
     Seaborn
+    tqdm
+    hdf5
+    h5py
