@@ -12,4 +12,8 @@ Transfer Learning using Keras and Tensorflow
 ### Nurture  AI, JNU, Delhi 12th Jan 2017
 Talk on [Convolutional Neural Networks](https://github.com/amita-kapoor/Invited_Talks/blob/master/NurtureAI.pdf)
 
+### Hansraj College, University of Delhi 2017
+
+Talk on [Biologically Inspired Learning: Neural Networks and Artificial Intelligence](https://github.com/amita-kapoor/Invited_Talks/tree/master/Hansraj%20College)
+
 
