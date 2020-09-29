@@ -16,4 +16,6 @@ Talk on [Convolutional Neural Networks](https://github.com/amita-kapoor/Invited_
 
 Talk on [Biologically Inspired Learning: Neural Networks and Artificial Intelligence](https://github.com/amita-kapoor/Invited_Talks/tree/master/Hansraj%20College)
 
+If you liked the content in this repo-do not forget to click Star :star: 
+
 
